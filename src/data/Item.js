@@ -12,7 +12,7 @@ const Item = [
         itemUrl: "/Boots/Puma.jpg"
     },
     {
-        title: "Mizuno",
+        title: "MizunoInwZa",
         itemUrl: "/Boots/Mizuno.jpg"
     }
 ];
