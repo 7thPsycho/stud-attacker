@@ -1,0 +1,13 @@
+.app-header {
+    border-bottom: 1px solid rgb(199, 201, 195);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 34, 46);
+  }
+  
+  .app-header-logo {
+    height: 100px;
+    width: auto;
+  }
