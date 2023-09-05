@@ -1,8 +1,8 @@
 import { react, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AppHerder from './Components/AppHeader';
-import Studitem from './Components/Studitem';
+import AppHeader from './Components/AppHeader';
+import Studitems from './Components/Studitems';
 import StudPost from './Components/StudPost';
 import Item from './data/Item';
 import AppSearch from './Components/AppSearch';
@@ -24,7 +24,7 @@ function App() {
     const itemElement = Item.filter((item) => {
         return item.title.toLowerCase().includes(searchText) || item.title.toUpperCase().includes(searchText);
     }).map((item, index) => {
-        return <Studitem key={index} item={item} onStudClick={onStudOpenClick} />;
+        return <Studitems key={index} item={item} onStudClick={onStudOpenClick} />;
     });
     let studPost = null;
     if (!!selectedStud) {
@@ -33,7 +33,7 @@ function App() {
 
     return (
         <div className='app'>
-            <AppHerder />
+            <AppHeader />
             <section className='app-section'>
                 <div className='app-contrainer'>
                     <AppSearch value={searchText} onValueChange={setSearchText} />

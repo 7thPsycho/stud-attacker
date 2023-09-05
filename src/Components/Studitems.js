@@ -1,6 +1,6 @@
-import './Studitem.css';
+import './Studitems.css';
 
-function Studitem(props) {
+function Studitems(props) {
     const { item, onStudClick } = props;
     return (
         <div className='stud-item'>
@@ -10,4 +10,4 @@ function Studitem(props) {
     )
 }
 
-export default Studitem; 
+export default Studitems; 
