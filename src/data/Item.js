@@ -4,7 +4,7 @@ const Item = [
         itemUrl: "/Boots/Adidas.jpg"
     },
     {
-        title: "Nike",
+        title: "NikeInwZa",
         itemUrl: "/Boots/Nike.jpg"
     },
     {
