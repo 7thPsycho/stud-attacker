@@ -1,6 +1,6 @@
 import './AppHeader.css';
 
-function AppHerder() {
+function AppHeader() {
     return(
     <header className='app-header'>
                 <img className='app-header-logo' src="/Boots/LOGO.png" />
@@ -9,4 +9,4 @@ function AppHerder() {
     )
 }
 
-export default AppHerder;
+export default AppHeader;
